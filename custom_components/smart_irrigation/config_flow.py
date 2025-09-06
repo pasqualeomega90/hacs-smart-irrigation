@@ -4,7 +4,7 @@ from homeassistant.core import callback
 from .const import DOMAIN
 
 DATA_SCHEMA = vol.Schema({
-    vol.Required("name", default="Irrigazione Smart"): str,
+    vol.Required("name", default="Irrigazione Smart MultiZona"): str,
     vol.Required("zone_count", default=2): int,
     vol.Required("durata_zona_1", default=10): int,
     vol.Required("durata_zona_2", default=10): int,

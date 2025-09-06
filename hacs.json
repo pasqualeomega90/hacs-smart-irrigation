@@ -1,8 +1,8 @@
 {
-  "name": "Smart Irrigation",
+  "name": "Irrigazione Smart MultiZona",
   "version": "1.0.0",
   "slug": "smart_irrigation",
-  "description": "A smart irrigation management integration for Home Assistant.",
+  "description": "Gestione intelligente e configurabile di più zone di irrigazione.",
   "documentation": "https://github.com/pasqualeomega90/hacs-smart-irrigation#readme",
   "issue_tracker": "https://github.com/pasqualeomega90/hacs-smart-irrigation/issues",
   "homepage": "https://github.com/pasqualeomega90/hacs-smart-irrigation",

@@ -1,6 +1,6 @@
 {
   "domain": "smart_irrigation",
-  "name": "Smart Irrigation",
+  "name": "Irrigazione Smart MultiZona",
   "version": "1.0.0",
   "documentation": "https://github.com/pasqualeomega90/hacs-smart-irrigation#readme",
   "dependencies": [],

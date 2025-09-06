@@ -1,0 +1,53 @@
+# Irrigazione Smart MultiZona
+
+Questa integrazione per Home Assistant permette la gestione intelligente e personalizzata di più zone di irrigazione, con configurazione tramite UI e dashboard avanzata.
+
+## Funzionalità
+
+- Configurazione da UI: zone, durata, modalità, orario alba/tramonto e offset.
+- Gestione MultiZona: almeno 2 zone, espandibili.
+- Modalità manuale e automatica per ogni zona e giorno.
+- Avvio alba/tramonto con offset personalizzato.
+- Dashboard WOW: card personalizzata, storico irrigazione, pulsanti rapidi, grafici e stato in tempo reale.
+
+## Installazione
+
+1. Scarica tramite HACS  
+   - Aggiungi il repository:  
+     `https://github.com/pasqualeomega90/hacs-smart-irrigation`
+   - Installa l’integrazione “Irrigazione Smart MultiZona”.
+
+2. Riavvia Home Assistant
+
+3. Configura dalla UI  
+   - Vai su **Impostazioni > Dispositivi e servizi > Aggiungi integrazione**.
+   - Cerca “Irrigazione Smart MultiZona” e segui il flusso guidato.
+
+## Dashboard Lovelace
+
+1. Aggiungi la risorsa della card  
+   - Vai su **Impostazioni > Dashboard > Risorse**.
+   - Aggiungi `/local/smart_irrigation_card.js` come JavaScript Module.
+
+2. Crea una dashboard dedicata  
+   - Vai su **Dashboard > Aggiungi dashboard**.
+   - Aggiungi la card manuale:
+     ```yaml
+     type: custom:smart-irrigation-card
+     ```
+   - Aggiungi card di stato, storico e controllo rapido.
+
+## Risoluzione problemi
+
+- Non configurare tramite YAML:  
+  Rimuovi eventuali riferimenti a `platform: smart_irrigation` dal file `configuration.yaml`.
+- Configura solo dalla UI.
+- Verifica che le entità siano create correttamente (es. `switch.smart_irrigation_zona_1`, `sensor.smart_irrigation_zona_1`).
+
+## Supporto
+
+Per problemi o suggerimenti, apri una issue su [GitHub](https://github.com/pasqualeomega90/hacs-smart-irrigation/issues).
+
+## Licenza
+
+MIT

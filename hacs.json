@@ -1,0 +1,13 @@
+{
+  "name": "Smart Irrigation",
+  "version": "1.0.0",
+  "slug": "smart_irrigation",
+  "description": "A smart irrigation management integration for Home Assistant.",
+  "documentation": "https://github.com/pasqualeomega90/hacs-smart-irrigation#readme",
+  "issue_tracker": "https://github.com/pasqualeomega90/hacs-smart-irrigation/issues",
+  "homepage": "https://github.com/pasqualeomega90/hacs-smart-irrigation",
+  "license": "MIT",
+  "dependencies": [],
+  "codeowners": ["@pasqualeomega90"],
+  "requirements": []
+}

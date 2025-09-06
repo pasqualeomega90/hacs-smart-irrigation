@@ -1,0 +1,11 @@
+{
+  "domain": "smart_irrigation",
+  "name": "Smart Irrigation",
+  "version": "1.0.0",
+  "documentation": "https://github.com/pasqualeomega90/hacs-smart-irrigation#readme",
+  "dependencies": [],
+  "requirements": [],
+  "codeowners": ["@pasqualeomega90"],
+  "iot_class": "local_polling",
+  "homeassistant": ">=2021.12.0"
+}

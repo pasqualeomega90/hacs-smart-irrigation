@@ -23,3 +23,5 @@ CONF_EXPANDERS = "expanders"
 # Expanders
 EXPANDER_ONE = "expander_one"
 EXPANDER_TWO = "expander_two"
+
+SWITCH_NAME = "Irrigazione Smart MultiZona"
